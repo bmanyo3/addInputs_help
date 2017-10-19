@@ -7,9 +7,21 @@
 //
 
 #include <iostream>
+#include "getValueFromUser.hpp"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+//int getValueFromUser()
+//{
+//    std::cout << "Enter a number: ";
+//    int a;
+//    std::cin >> a;
+//    return a;
+//}
+
+int main()
+{
+    int x = getValueFromUser();
+    int y = getValueFromUser();
+    
+    std::cout << x << " + " << y << " = " << x + y << std::endl;
     return 0;
 }
