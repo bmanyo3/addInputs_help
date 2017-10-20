@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E4615261F9A889900AB604A /* getValueFromUser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E4615251F9A889900AB604A /* getValueFromUser.cpp */; };
 		A2F5CB331F97FDC500278E9E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2F5CB321F97FDC500278E9E /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2E4615231F9A887C00AB604A /* main.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = main.hpp; sourceTree = "<group>"; };
+		2E4615241F9A889900AB604A /* getValueFromUser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = getValueFromUser.hpp; sourceTree = "<group>"; };
+		2E4615251F9A889900AB604A /* getValueFromUser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = getValueFromUser.cpp; sourceTree = "<group>"; };
 		A2F5CB2F1F97FDC500278E9E /* GameTest1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GameTest1; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F5CB321F97FDC500278E9E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				A2F5CB321F97FDC500278E9E /* main.cpp */,
+				2E4615231F9A887C00AB604A /* main.hpp */,
+				2E4615251F9A889900AB604A /* getValueFromUser.cpp */,
+				2E4615241F9A889900AB604A /* getValueFromUser.hpp */,
 			);
 			path = GameTest1;
 			sourceTree = "<group>";
@@ -120,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2F5CB331F97FDC500278E9E /* main.cpp in Sources */,
+				2E4615261F9A889900AB604A /* getValueFromUser.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,15 +7,7 @@
 //
 
 #include <iostream>
-#include "getValueFromUser.hpp"
-
-//int getValueFromUser()
-//{
-//    std::cout << "Enter a number: ";
-//    int a;
-//    std::cin >> a;
-//    return a;
-//}
+#include "main.hpp"
 
 int main()
 {

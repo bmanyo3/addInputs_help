@@ -9,7 +9,6 @@
 #ifndef getValueFromUser_hpp
 #define getValueFromUser_hpp
 
-#include <stdio.h>
-#include "getValueFromUser.cpp"
+int getValueFromUser();
 
 #endif /* add_hpp */
